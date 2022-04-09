@@ -1,0 +1,58 @@
+{
+  "cars": [
+    {
+      "image": "https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202204/20220406/mazda-rx8-1.3-sport-gasolina-4p-automatico-wmimagem08042421976.jpg?s=fill&w=249&h=186&q=70",
+      "brand": "Mazda",
+      "name": "Rx-8",
+      "year": 2006,
+      "desc": "1.3 SPORT GASOLINA 4P AUTOMÁTICO",
+      "price": 183000,
+      "id": 2
+    },
+    {
+      "image": "https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202202/20220215/toyota-supra-3.0-24v-biturbo-gasolina-4p-manual-WMIMAGEM13023353894.jpg?s=fill&w=249&h=186&q=70",
+      "brand": "Toyota",
+      "name": "Supra",
+      "year": 1993,
+      "desc": "3.0 24V BI-TURBO GASOLINA 4P MANUAL",
+      "price": 1300000,
+      "id": 3
+    },
+    {
+      "image": "https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202201/20220111/BMW-330I-2.0-16V-TURBO-GASOLINA-M-SPORT-AUTOMATICO-wmimagem14063580724.jpg?s=fill&w=249&h=186&q=70",
+      "brand": "BMW",
+      "name": "330i",
+      "year": 2019,
+      "desc": "2.0 16V TURBO GASOLINA M SPORT AUTOMÁTICO",
+      "price": 100000,
+      "id": 4
+    },
+    {
+      "image": "https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202204/20220401/MITSUBISHI-LANCER-2.0-EVOLUTION-X-JOHN-EASTON-4X4-16V-TURBO-INTERCOOLER-GASOLINA-4P-AUTOMATICO-wmimagem18233704352.jpg?s=fill&w=249&h=186&q=70",
+      "brand": "Mitsubishi",
+      "name": "Lancer",
+      "year": 2015,
+      "desc": "2.0 EVOLUTION X JOHN EASTON 4X4 16V TURBO INTERCOOLER GASOLINA 4P AUTOMÁTICO",
+      "price": 250000,
+      "id": 5
+    },
+    {
+      "image": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202203/20220320/mazda-mx5-1.8-miata-conversivel-16v-gasolina-2p-manual-wmimagem19233867638.jpg?s=fill&w=552&h=414&q=60",
+      "brand": "mazda",
+      "name": "mx-5 miata",
+      "year": 1995,
+      "desc": "1.8 MIATA CONVERSÍVEL 16V GASOLINA 2P MANUAL",
+      "price": 110000,
+      "id": 6
+    },
+    {
+      "image": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202203/20220316/toyota-hilux-sw4-2.8-srx-4x4-7-lugares-16v-turbo-intercooler-diesel-4p-automatico-wmimagem11402568294.jpg?s=fill&w=1920&h=1440&q=75",
+      "brand": "TOYOTA ",
+      "name": "HILUX SW4",
+      "year": 2019,
+      "desc": "2.8 SRX 4X4 7 LUGARES 16V TURBO INTERCOOLER DIESEL 4P AUTOMÁTICO",
+      "price": 309990,
+      "id": 9
+    }
+  ]
+}
