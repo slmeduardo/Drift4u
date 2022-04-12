@@ -8,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="main.css" />
   </head>
+
   <body class="bg-slate-100">
     <header class="bg-white mb-20 flex justify-between items-center p-5">
       <a href="index.html" class="text-3xl font-bold"
@@ -110,6 +111,7 @@
           />
         </svg>
         <input
+          onkeydown="search(this)"
           class="w-full outline-none"
           type="text"
           placeholder="Digite a marca ou modelo do carro"
@@ -117,7 +119,6 @@
       </div>
       <ul class="text-gray-700 flex gap-20 text-sm">
         <a
-          onkeydown="redirect(this)"
           class="border-b-2 hover:border-red-500 border-transparent"
           href="buy.html"
           >Comprar</a
@@ -141,24 +142,36 @@
     </header>
 
     <div class="container mx-auto">
-      <h1 class="text-3xl font-bold mb-2">Filtro</h1>
-      <p class="font-medium text-gray-500 mb-10">
-        Encontre o veículo dos seus sonhos
+      <h1 class="text-4xl text-gray-600 text-center mb-20">
+        Dúvidas Frequentes
+      </h1>
+      <h2 class="text-xl uppercase font-bold text-gray-600">
+        Como anunciar meu veículo?
+      </h2>
+      <p class="text-gray-500 py-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, alias
+        quos quibusdam, nulla iste provident officiis veritatis sit sed quae
+        accusantium numquam quis nemo dicta vel similique nobis pariatur
+        expedita?
       </p>
-      <div>
-        <div class="bg-white p-10 rounded max-w-5xl mx-auto mb-5">
-          <h1 class="text-2xl font-medium mb-10">Marcas</h1>
-          <div id="categoriesBox" class="grid gap-4 grid-cols-4">
-            <!-- <button
-              class="w-full bg-white rounded border-2 border-red-600 font-medium text-red-600 outline-none py-2 px-3 my-2 hover:bg-red-600 hover:text-white transition"
-              type="text"
-            >
-              Porsche
-            </button> -->
-          </div>
-        </div>
-      </div>
+      <h2 class="text-xl uppercase font-bold text-gray-600">
+        É seguro comprar com a Drift4u?
+      </h2>
+      <p class="text-gray-500 py-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, alias
+        quos quibusdam, nulla iste provident officiis veritatis sit sed quae
+        accusantium numquam quis nemo dicta vel similique nobis pariatur
+        expedita?
+      </p>
+      <h2 class="text-xl uppercase font-bold text-gray-600">
+        Os carros anunciados realmente estão sem documentos?
+      </h2>
+      <p class="text-gray-500 py-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, alias
+        quos quibusdam, nulla iste provident officiis veritatis sit sed quae
+        accusantium numquam quis nemo dicta vel similique nobis pariatur
+        expedita?
+      </p>
     </div>
-    <script src="buy.js"></script>
   </body>
 </html>
