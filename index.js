@@ -19,7 +19,7 @@ function cardGenerator(car) {
   let carDesc = car.desc.toUpperCase()
   return (carsCards.innerHTML += `
     <div class="bg-white shadow-md rounded flex flex-col justify-center">
-                <img class="rounded-t w-full" src="${car.image}">
+                <div class="rounded-t w-full h-40 bg-center bg-origin-padding bg-cover" style="background-image: url('${car.image}')"></div>
                 <div class="p-2">
                     <h2 class="font-medium">${carBrand} ${carName}</h2>
                     <p class="pb-10 font-medium text-sm text-slate-500">${carDesc}</p>
@@ -28,11 +28,15 @@ function cardGenerator(car) {
                     <span class="font-medium text-2xl p-2">${priceCurrency}</span>
                     <p class="text-slate-500 text-sm pt-2 p-2">${car.year}</p>
                     <button
-                        class="bg-red-600 p-3 rounded-b w-full text-white font-bold hover:bg-red-700 transition" onclick="buyCar('${car.slug}')">COMPRAR
+                        class="bg-red-600 p-3 rounded-b w-full text-white font-bold hover:bg-red-700 transition" onclick="buyCar(${car.id})">COMPRAR
                     </button>
                 </div>
             </div>
     `)
+}
+
+function buyCar(id) {
+  window.location.href = `/carpage.html?id=${id}`
 }
 
 function updateCars() {
