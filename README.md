@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![LinkedIn][linkedin-shield]][[linkedin-url](https://www.linkedin.com/in/eduardo-cardoso-46695a238/)]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/eduardo-cardoso-46695a238/)
 
 
 
@@ -66,22 +66,9 @@ With this project I  got to know better the CSS framework and i also learned a l
 <!-- CONTACT -->
 ## Contact
 
-Eduardo Cardoso - [@twitter_handle](https://twitter.com/slmeduardo) - eduardoslmc87@gmail.com
+Eduardo Cardoso - [@slmeduardo](https://twitter.com/slmeduardo) - eduardoslmc87@gmail.com
 
-Project Link: [[https://github.com/github_username/repo_name](https://github.com/slmeduardo/Drift4u)]([https://github.com/github_username/repo_name](https://github.com/slmeduardo/Drift4u))
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: (https://github.com/slmeduardo/Drift4u)
 
 
 
