@@ -26,7 +26,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src='https://user-images.githubusercontent.com/47526368/191801996-57f59ca6-5343-4edb-b81f-2e01e965d84c.png' />
   </a>
 
 <h3 align="center">Drift4U</h3>
@@ -36,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
 
 Drift4U is a Website created to buy and sell cars for sale online, while logged in an account, you can go to an admin page, where your posts can be created, edited or deleted, to make sure all details are shown. It's also possible to filter what brand, name or color you want in a car, making it easier for you, to find the car of your dreams.
 
@@ -86,7 +86,7 @@ Project Link: (https://github.com/slmeduardo/Drift4u)
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://user-images.githubusercontent.com/47526368/191801019-9b76263d-0ad0-4048-b940-569b22f019d9.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
