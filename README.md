@@ -38,7 +38,7 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-Drift4U is a Website created to buy and sell cars for sale online, while logged in an account, you can go to an admin page, where your posts can be created, edited or deleted, to make sure all details are shown. It's also possible to filter what brand, name or color you want in a car, making it easier for you, to find the car of your dreams.
+Drift4U is a Website created to buy and sell cars online, while logged in an account, you can go to an admin page, where your posts can be created, edited or deleted, to make sure all details are shown. It's also possible to filter what brand, name or color you want in a car, making it easier for you, to find the car of your dreams.
 
 
 
