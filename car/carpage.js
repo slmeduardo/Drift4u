@@ -16,7 +16,6 @@ fetch(`http://localhost:3000/cars/${carSlug}`, {
 })
   .then((r) => r.json())
   .then((res) => {
-    console.log(res)
     price.innerHTML = res.price.toLocaleString('pt-br', {
       style: 'currency',
       currency: 'BRL'
