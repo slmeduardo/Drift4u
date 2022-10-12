@@ -4,7 +4,6 @@ const body = document.querySelector('body')
 let idCar
 
 function cardEdit() {
-  console.log('teste')
   //pegar os input
   const modalBrand = document.getElementById('modalBrand')
   const modalName = document.getElementById('modalName')
