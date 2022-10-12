@@ -8,7 +8,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="main.css" />
   </head>
-
   <body class="bg-slate-100">
     <header class="bg-white mb-20 flex justify-between items-center p-5">
       <a href="/" class="text-3xl font-bold"
@@ -142,29 +141,24 @@
     </header>
 
     <div class="container mx-auto">
-      <h1 class="font-bold text-2xl text-gray-800">
-        <span id="brandSpan"></span> Novos e Usados
-      </h1>
-      <p class="font-medium text-gray-500 mb-5">
-        <span id="quantity"></span> Carros encontrados
+      <h1 class="text-3xl font-bold mb-2">Filtro</h1>
+      <p class="font-medium text-gray-500 mb-10">
+        Encontre o veículo dos seus sonhos
       </p>
-      <div id="carsCards" class="grid gap-4 grid-cols-5 grid-rows-3">
-        <!-- <div class="bg-white shadow-md rounded flex flex-col justify-center">
-                <img class="rounded-t w-full" src="${car.image}">
-                <div>
-                    <h2 class="font-medium">${car.brand} ${car.name}</h2>
-                    <p class="pb-10 font-medium text-sm text-slate-500">${car.desc}</p>
-                </div>
-                <div class="flex-shrink-0 mt-auto">
-                    <span class="font-medium text-2xl p-2">${priceCurrency}</span>
-                    <p class="text-slate-500 text-sm pt-2 p-2">${car.year}</p>
-                    <button
-                        class="bg-red-600 p-3 rounded-b w-full text-white font-bold hover:bg-red-700 transition">COMPRAR
-                    </button>
-                </div>
-            </div> -->
+      <div>
+        <div class="bg-white p-10 rounded max-w-5xl mx-auto mb-5">
+          <h1 class="text-2xl font-medium mb-10">Marcas</h1>
+          <div id="categoriesBox" class="grid gap-4 grid-cols-4">
+            <!-- <button
+              class="w-full bg-white rounded border-2 border-red-600 font-medium text-red-600 outline-none py-2 px-3 my-2 hover:bg-red-600 hover:text-white transition"
+              type="text"
+            >
+              Porsche
+            </button> -->
+          </div>
+        </div>
       </div>
     </div>
-    <script src="index.js"></script>
+    <script src="buy.js"></script>
   </body>
 </html>

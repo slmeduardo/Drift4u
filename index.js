@@ -36,7 +36,7 @@ function cardGenerator(car) {
 }
 
 function buyCar(id) {
-  window.location.href = `/carpage.html?id=${id}`
+  window.location.href = `/car/?id=${id}`
 }
 
 function updateCars() {
