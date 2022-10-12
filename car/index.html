@@ -8,9 +8,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="main.css" />
   </head>
+
   <body class="bg-slate-100">
     <header class="bg-white mb-20 flex justify-between items-center p-5">
-      <a href="index.html" class="text-3xl font-bold"
+      <a href="/" class="text-3xl font-bold"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -110,6 +111,7 @@
           />
         </svg>
         <input
+          onkeydown="search(this)"
           class="w-full outline-none"
           type="text"
           placeholder="Digite a marca ou modelo do carro"
@@ -117,48 +119,74 @@
       </div>
       <ul class="text-gray-700 flex gap-20 text-sm">
         <a
-          onkeydown="redirect(this)"
           class="border-b-2 hover:border-red-500 border-transparent"
-          href="buy.html"
+          href="/buy"
           >Comprar</a
         >
         <a
           class="border-b-2 hover:border-red-500 border-transparent"
-          href="form.html"
+          href="/sell"
           >Vender</a
         >
         <a
           class="border-b-2 hover:border-red-500 border-transparent"
-          href="help.html"
+          href="/help.html"
           >Ajuda</a
         >
         <a
           class="border-b-2 hover:border-red-500 border-transparent"
-          href="login.html"
+          href="/login"
           >Login</a
         >
       </ul>
     </header>
 
     <div class="container mx-auto">
-      <h1 class="text-3xl font-bold mb-2">Filtro</h1>
-      <p class="font-medium text-gray-500 mb-10">
-        Encontre o veículo dos seus sonhos
-      </p>
-      <div>
-        <div class="bg-white p-10 rounded max-w-5xl mx-auto mb-5">
-          <h1 class="text-2xl font-medium mb-10">Marcas</h1>
-          <div id="categoriesBox" class="grid gap-4 grid-cols-4">
-            <!-- <button
-              class="w-full bg-white rounded border-2 border-red-600 font-medium text-red-600 outline-none py-2 px-3 my-2 hover:bg-red-600 hover:text-white transition"
-              type="text"
-            >
-              Porsche
-            </button> -->
+      <div class="bg-white p-10 flex justify-between rounded">
+        <div class="flex flex-col bg-white p-5">
+          <h1 id="brand" class="uppercase text-2xl font-bold">nissan</h1>
+          
+          <p id="desc" class="text-gray-500">3.5 V6 GASOLINA MANUAL</p>
+          <p class="font-bold uppercase py-3 text-md">especificações</p>
+          <div class="pb-2">
+            <p class="text-gray-500 text-xs">Ano</p>
+            <p id="year" class="font-bold">2015</p>
+          </div>
+          <div class="pb-2">
+            <p class="text-gray-500 text-xs">Contém placa</p>
+            <p class="font-bold">NÃO</p>
+          </div>
+          <div class="pb-2">
+            <p class="text-gray-500 text-xs">Contém documento</p>
+            <p class="font-bold">NÃO</p>
+          </div>
+          <div class="pb-2">
+            <p class="text-gray-500 text-xs">Licenciado</p>
+            <p class="font-bold">NÃO</p>
+          </div>
+          <div class="pb-2">
+            <p class="text-gray-500 text-xs">IPVA Pago</p>
+            <p class="font-bold">NÃO</p>
           </div>
         </div>
+        <div>
+        </div>
+        <img id="image" class="h-80 m-auto" src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202204/20220401/nissan-350z-3.5-v6-gasolina-manual-wmimagem13113556387.jpg?s=fill&w=552&h=414&q=60" alt="">
+        <div class="px-20">
+          <span id="price" class="text-3xl font-medium">R$ 00.0000</span>
+          <p class="text-gray-500 text-xs">Envie uma mensagem ao vendedor</p>
+          <div class="flex flex-col">
+            <input class="border-2 border-gray-300 rounded-md py-2 px-3 text-xs w-96 my-3" type="text" placeholder="Nome">
+            <input class="border-2 border-gray-300 rounded-md py-2 px-3 text-xs w-96 my-3" type="email" placeholder="Email">
+            <input class="border-2 border-gray-300 rounded-md py-2 px-3 text-xs w-96 my-3" type="number" placeholder="Telefone">
+            <textarea class="border-2 border-gray-300 rounded-md py-2 px-3 text-xs w-96 my-3 resize-none" cols="30" rows="5"></textarea>
+          </div>
+          <button class="bg-red-600 text-white p-3 rounded-md w-full my-2">Enviar Mensagem</button>
+        </div>
+      </div>
+      
       </div>
     </div>
-    <script src="buy.js"></script>
+    <script src="carpage.js"></script>
   </body>
 </html>
